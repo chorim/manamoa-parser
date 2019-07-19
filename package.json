@@ -1,0 +1,32 @@
+{
+  "name": "manamoa-parser",
+  "version": "1.0.0",
+  "description": "A simple parser for manamoa.net",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/App.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://harak00@github.com/yukiyuki0/manamoa-parser.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yukiyuki0/manamoa-parser/issues"
+  },
+  "homepage": "https://github.com/yukiyuki0/manamoa-parser#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "cloudscraper": "^4.1.2",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "@types/cheerio": "^0.22.12",
+    "ts-loader": "^6.0.4",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
+  }
+}
